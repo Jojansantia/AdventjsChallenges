@@ -1,4 +1,4 @@
-# Reto 2 -Contanto ovejas para dormir
+# Reto 2 - ¡Ayuda al elfo a listar los regalos!
 
 Te ha llegado una carta ✉️ con todos los regalos que debes preparar. 
 El tema es que es una cadena de texto y es muy difícil de leer 😱. 

@@ -1,4 +1,4 @@
-# Reto 1 - Contanto ovejas para dormir
+# Reto 1 - Contando ovejas para dormir
 
 Considera una lista/array de ovejas. 
 Cada oveja tiene un nombre y un color. 
