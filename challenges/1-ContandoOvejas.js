@@ -1,3 +1,10 @@
+/*
+    Considera una lista/array de ovejas. 
+    Cada oveja tiene un nombre y un color. 
+    Haz una función que devuelva una lista con todas las ovejas que sean de color rojo 
+    y que además su nombre contenga tanto las letras n Y a, 
+    sin importar el orden, las mayúsculas o espacios.
+*/
 
 function contarOvejas(ovejas) {
     let ovejasFiltradas = ovejas.filter(x =>
@@ -18,20 +25,5 @@ const ovejas = [
 
 const ovejasFiltradas = contarOvejas(ovejas)
 console.log(ovejasFiltradas)
-
-// ------------------------------------------------------------------------------------------------
-
-function listGifts(letter) {
-    let gifs = {}
-    let data = letter.trim().split(' ')
-    data.forEach(gif => {
-        if(!gif.includes('_') && gif.length) gifs[gif] ? gifs[gif] += 1 : gifs[gif] = 1
-    });
-    return gifs
-}
-
-const carta = 'bici coche balón  _playstation bici coche peluche'
-const regalos = listGifts(carta)
-console.log("Reto 2",regalos)
 
 // ------------------------------------------------------------------------------------------------
