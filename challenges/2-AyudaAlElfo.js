@@ -1,10 +1,10 @@
 function listGifts(letter) {
-    let gifs = {}
+    let gifts = {}
     let data = letter.trim().split(' ')
-    data.forEach(gif => {
-        if(!gif.includes('_') && gif.length) gifs[gif] ? gifs[gif] += 1 : gifs[gif] = 1
+    data.forEach(gift => {
+        if(!gift.includes('_') && gift.length) gifts[gift] ? gifts[gift] += 1 : gifts[gift] = 1
     });
-    return gifs
+    return gifts
 }
 
 const carta = 'bici coche balón  _playstation bici coche peluche'
