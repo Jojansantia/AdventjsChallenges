@@ -7,21 +7,16 @@ La función debe devolver los dos valores del Array que sumen el resultado esper
 Si no se encuentra, se devuelve null.
 
 ```jsx harmony
-function createXmasTree(height) {
-    let xMaxTree = ''
-    let maxUnderscore = (height * 2) - 2
+export default function sumPairs(numbers, result) {
+    let values = null
+    numbers.forEach((num, i) => {
+        numbers.forEach((num2, j) => {
+            if(i !== j && ((num + num2) === result) && !values) values = [num, num2]
+        });
+    });
 
-    for (let index = 0; index < height; index++) {
-        let underscoreXLvl = (maxUnderscore/2) - (index * 1)
-        xMaxTree += '_'.repeat(underscoreXLvl) + '*'.repeat(2*index + 1) + '_'.repeat(underscoreXLvl) + '\n'
-    }
-
-    let log = '_'.repeat(maxUnderscore/2) + '#' + '_'.repeat(maxUnderscore/2)
-    xMaxTree += log + '\n' + log
-    return xMaxTree
+    return values
 }
 
-let newXMasTree = createXmasTree(5)
-
-console.log(newXMasTree)
+console.log(sumPairs([0, 2, 2, 3, -1, 1, 5], 6))
 ```

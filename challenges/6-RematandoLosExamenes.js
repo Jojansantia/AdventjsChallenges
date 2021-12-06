@@ -9,4 +9,4 @@ export default function sumPairs(numbers, result) {
     return values
 }
 
-console.log(sumPairs([0, 2, 2, 3, -1, 1, 5], 6)) // [3, 7]
+console.log(sumPairs([0, 2, 2, 3, -1, 1, 5], 6))
