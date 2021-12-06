@@ -1,4 +1,4 @@
-# Reto 4 - ¡Es hora de poner el árbol de navidad en casa!
+# Reto 5 - Contando los días para los regalos
 
 Con la emoción, ya estamos empezando a contar los días del calendario hasta el 25 de diciembre 📆.
 Para ayudar a esto, vamos a crear una función que pasándole una instancia de Date nos diga el número de días que faltan.
