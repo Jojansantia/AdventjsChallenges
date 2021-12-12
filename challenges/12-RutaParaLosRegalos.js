@@ -1,10 +1,8 @@
-export default function getMinJump(obstacles) {
+function getMinJump(obstacles) {
     const maxJump = Math.max(...obstacles) + 1
-    let minJump = maxJump
     for (let i = 1; i < maxJump; i++) {
-        if(obstacles.every((x) => x % i !== 0) && i < minJump) minJump = i
+        if(obstacles.every((x) => x % i !== 0) ) return i
     }
-    return minJump
 }
 
 const obstacles = [5, 3, 6, 7, 9]
