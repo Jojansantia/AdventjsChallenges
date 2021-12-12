@@ -17,4 +17,4 @@
 - [`09 - Agrupando cosas automáticamente`](docs/agrupandoAutomaticamente.md)
 - [`10 - La máquina de cambio`](docs/maquinaDeCambio.md)
 - [`11 - ¿Vale la pena la tarjeta fidelidad del cine?`](docs/tarjetaDeCine.md)
-- [`12 - La ruta perfecta para dejar los regalos`](docs/rutaParalosRegalos.md)
+- [`12 - La ruta perfecta para dejar los regalos`](docs/rutaParaLosRegalos.md)
