@@ -10,17 +10,17 @@ Si ese día no se puede sacar ningún beneficio, tenemos que devolver -1 para ev
 
 ```jsx harmony
 function maxProfit(prices) {
-    let gain = []
+    let gain = -1
     for (const price of prices) {
         let minPrice = price
         for (const price2 of prices) {
             if(price2 < price && (prices.indexOf(price2) < prices.indexOf(price)) && price2 < minPrice){
                 minPrice = price2
-                if(price > (gain[0] || 0)) gain = [price, price2]
+                if((price - price2) > gain) gain = (price - price2)
             }
         }
     }
-    return !!gain.length ? gain[0] - gain[1] : -1
+    return gain
 }
 
 const pricesBtc = [39, 18, 29, 25, 34, 32, 5]
