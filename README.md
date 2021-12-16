@@ -1,11 +1,5 @@
 # Challenges adventJs 
 
-<a href="https://adventjs.dev/" target="_blank">
-    https://adventjs.dev/
-</a>
-
-<br><br>
-
 - [`01 - Contando ovejas para dormir`](docs/contandoOvejas.md)
 - [`02 - ¡Ayuda al elfo a listar los regalos!`](docs/ayudaAlElfo.md)
 - [`03 - El Grinch quiere fastidiar la Navidad`](docs/arreglarElLio.md)
@@ -21,3 +15,4 @@
 - [`13 - Envuelve regalos con asteriscos`](docs/envolverRegalos.md)
 - [`14 - En busca del reno perdido`](docs/enBuscaDelReno.md)
 - [`15 - El salto perfecto`](docs/elSaltoPerfecto.md)
+- [`16 - Descifrando los números...`](docs/descifrandoNumeros.md)
