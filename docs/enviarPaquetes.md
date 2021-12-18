@@ -7,8 +7,11 @@ La empresa funciona con flotas de furgonetas 🚛 y camiones 🚚. Las flotas ti
 Necesitamos saber el número de paquetes que una persona va a poder gestionar en un día. Para ello se cuenta el número de paquetes que puede llevar esa persona y todos los transportistas que tiene en su equipo. Lo malo es que los datos están almacenados de una forma un poco rara en un array:
 
 El array contiene otros arrays que contienen los datos de cada transportista
+<br/>
 transportista[0] -> Nombre/ID del Transportista
+<br/>
 transportista[1] -> Paquetes que gestiona en un día
+<br/>
 transportista[2] -> Array con sus subordinados
 
 Para que lo veamos en código, tanto el array, como la función de dos parámetros para conseguir el número deseado.
