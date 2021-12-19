@@ -18,3 +18,4 @@
 - [`16 - Descifrando los números...`](docs/descifrandoNumeros.md)
 - [`17 - La locura de enviar paquetes en esta época`](docs/enviarPaquetes.md)
 - [`18 - El sistema operativo de Santa Claus`](docs/sistemaDeSanta.md)
+- [`19 - ¿Qué deberíamos aprender en Platzi?`](docs/queDeberiamosAprender.md)
