@@ -20,3 +20,4 @@
 - [`18 - El sistema operativo de Santa Claus`](docs/sistemaDeSanta.md)
 - [`19 - ¿Qué deberíamos aprender en Platzi?`](docs/queDeberiamosAprender.md)
 - [`20 - ¿Una carta de pangramas? ¡QUÉ!`](docs/cartaDePangramas.md)
+- [`21 - La ruta con los regalos`](docs/rutaConRegalos.md)
