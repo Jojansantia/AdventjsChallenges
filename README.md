@@ -21,3 +21,4 @@
 - [`19 - ¿Qué deberíamos aprender en Platzi?`](docs/queDeberiamosAprender.md)
 - [`20 - ¿Una carta de pangramas? ¡QUÉ!`](docs/cartaDePangramas.md)
 - [`21 - La ruta con los regalos`](docs/rutaConRegalos.md)
+- [`22 - ¿Cuantos adornos necesita el árbol?`](docs/adornosDelArbol.md)
