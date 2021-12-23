@@ -22,3 +22,4 @@
 - [`20 - ¿Una carta de pangramas? ¡QUÉ!`](docs/cartaDePangramas.md)
 - [`21 - La ruta con los regalos`](docs/rutaConRegalos.md)
 - [`22 - ¿Cuantos adornos necesita el árbol?`](docs/adornosDelArbol.md)
+- [`23 - ¿Puedes reconfigurar las fábricas para no parar de crear regalos?`](docs/reconfigurarFabricas.md)
