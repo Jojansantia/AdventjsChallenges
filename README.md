@@ -23,3 +23,5 @@
 - [`21 - La ruta con los regalos`](docs/rutaConRegalos.md)
 - [`22 - ¿Cuantos adornos necesita el árbol?`](docs/adornosDelArbol.md)
 - [`23 - ¿Puedes reconfigurar las fábricas para no parar de crear regalos?`](docs/reconfigurarFabricas.md)
+- [`24 - Comparando árboles de Navidad`](docs/comparandoArboles.md)
+- [`25 - El último juego y hasta el año que viene`](docs/elUltimoJuego.md)
